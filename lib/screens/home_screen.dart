@@ -270,13 +270,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   itemBuilder: (context, index) {
                     return Container(
                       // margin: EdgeInsets.only(right: 15),
-                      width: 200,
+                      width: 220,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           SizedBox(
-                            height: 200,
+                            height: 180,
                             child: Stack(
                               children: [
                                 InkWell(
