@@ -1,6 +1,6 @@
 // screens/login_screen.dart
 
-import 'package:commerce/screens/home_screen.dart';
+import 'package:commerce/screens/navigation_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'forgot_screen.dart';
@@ -72,7 +72,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       onPressed: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => HomeScreen()),
+                          MaterialPageRoute(builder: (context) => NavigationScreen()),
                         );
                       },
                       style: ElevatedButton.styleFrom(

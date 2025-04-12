@@ -1,6 +1,7 @@
 // screens/singup_screen.dart
 
-import 'home_screen.dart';
+import 'package:commerce/screens/navigation_screen.dart';
+
 import 'package:flutter/material.dart';
 
 import 'login_screen.dart';
@@ -77,7 +78,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       onPressed: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => HomeScreen()),
+                          MaterialPageRoute(builder: (context) => NavigationScreen()),
                         );
                       },
                       style: ElevatedButton.styleFrom(
